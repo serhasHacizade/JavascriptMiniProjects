@@ -32,7 +32,7 @@
   --clr-black: #222;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
-  --transition: all 0.3s linear;
+  --transition: all 0.4s linear;
   --spacing: 0.1rem;
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -75,7 +75,7 @@ h2 {
 
 /*info*/
 p {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
   color: var(--clr-grey-5);
 }
 
@@ -154,3 +154,53 @@ main {
   color: var(--clr-black);
 }
 
+.prevBtn {
+  background-color: transparent;
+  height: 25px;
+  letter-spacing: var(--spacing);
+  border-radius: var(--radius);
+  color: var(--clr-black);
+  border: 1.5px solid var(--clr-black);
+  cursor: pointer;
+  padding: 0.24rem 0.36rem;
+}
+
+.prevBtn:hover {
+  transition: var(--transition);
+  color: var(--clr-white);
+  background: var(--clr-black);
+}
+
+.nextBtn {
+  background-color: transparent;
+  height: 25px;
+  letter-spacing: var(--spacing);
+  border-radius: var(--radius);
+  color: var(--clr-black);
+  border: 1.5px solid var(--clr-black);
+  cursor: pointer;
+  padding: 0.24rem 0.36rem;
+}
+
+.nextBtn:hover {
+  transition: var(--transition);
+  color: var(--clr-white);
+  background: var(--clr-black);
+}
+
+.randomBtn {
+  background-color: transparent;
+  height: 25px;
+  letter-spacing: var(--spacing);
+  border-radius: var(--radius);
+  color: var(--clr-black);
+  border: 1.5px solid var(--clr-black);
+  cursor: pointer;
+  padding: 0.24rem 0.36rem;
+}
+
+.randomBtn:hover {
+  transition: var(--transition);
+  color: var(--clr-white);
+  background: var(--clr-black);
+}

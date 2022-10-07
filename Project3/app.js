@@ -25,7 +25,7 @@ const characters = [
         name: "Sans",
         position: "other character",
         img: "https://static.wikia.nocookie.net/undertale/images/a/a6/Sans_overworld.png",
-        text: "I love to make a bad jokes and i work multiple works."
+        text: "I love to make bad jokes and i work multiple works."
     },
     {
         id: 5,
@@ -62,9 +62,9 @@ const author = document.getElementById("author");
 const position = document.getElementById("position");
 const info = document.getElementById("info");
 //buttons
-const prevBtn = document.querySelector(".prev-btn");
-const nextBtn = document.querySelector(".next-btn");
-const randomBtn = document.querySelector(".random-btn");
+const prevBtn = document.querySelector(".prevBtn");
+const nextBtn = document.querySelector(".nextBtn");
+const randomBtn = document.querySelector(".randomBtn");
 
 let currentItem = 0;
 

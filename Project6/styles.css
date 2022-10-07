@@ -99,7 +99,7 @@ p {
     transition: var(--transition);
     font-size: 1rem;
     border: 2px solid var(--clr-black);
-    cursor: pointer;
+    cursor: pointer;    
     border-radius: var(--radius);
 }
 .btn:hover {
