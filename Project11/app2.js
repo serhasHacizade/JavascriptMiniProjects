@@ -1,9 +1,9 @@
 let chartArray = [];
 let categoriesArray = [];
 const settings = {
-    url: 'url',
+    url: 'https://api.openweathermap.org/data/2.5/forecast/',
     key: 'api code',
-    iconUrl: 'iconUrl',
+    iconUrl: 'https://openweathermap.org/img/wn/',
     location: 'sivas',
 }
 
