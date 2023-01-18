@@ -1,0 +1,109 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./Sur.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+img {
+    max-width: 300px;
+    display: block;
+    padding-bottom: 1rem;
+    margin: 50px auto;
+    border-radius: 50ch;
+    
+}
+
+.backGroundImage {
+    width: 100%;
+}
+
+h1 {
+    letter-spacing: 0.25rem;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 2rem;
+        line-height: 1;
+    }
+}
+.btn {
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 0.4s linear;
+    display: inline-block;
+    color: #063251;
+    letter-spacing: 1px;
+    padding: 0.5rem 0.75rem;
+    background: #49a6e9;
+    border: 2px solid #49a6e9;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);   
+}
+.btn:hover {
+    color: #49a6e9;
+    background: #A5D5F8;
+    border-color: #A5D5F8;
+}
+.sectionCenter {
+    width: 90vw;
+    margin: 25px auto;
+    max-width: 40rem;
+    padding: 22px 15px;
+    text-align: center;
+    background: #b9d3ee;
+    border-radius: 35px;
+}
+@media screen and (min-width: 992px) {
+    .sectionCenter {
+        width: 95vw;
+    }
+}
+h1 {
+    text-transform: capitalize;
+    color: #063251;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    letter-spacing: 0.25rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+label {
+    font-size: 1rem;
+    color: #063251;
+    font-family: "Poppins", sans-serif;
+}
+input {
+    padding: 0.25rem 0.5rem;
+    width: 4rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+}
+button {
+    background: #EBF7FF;
+    border-radius: 0.25rem;
+}
+.result {
+    margin-bottom: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
